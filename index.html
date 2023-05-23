@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake</title>
+        <style>
+            body{
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                /*background-color: greenyellow;*/
+                background-image: url(./img/coming.png);
+                background-size: 20%;
+            }
+
+            #play-ground{
+                /*background-color: #ccc;*/
+                background-image: url(./img/arun.png);
+                background-size: 90vmin 70vmin;
+                width: 90vmin;
+                height: 70vmin;
+                display: grid;
+                grid-template-rows: repeat(21, 1fr);
+                grid-template-columns: repeat(21, 1fr);
+                border-radius: 7px;
+                border: 3px solid purple;
+            }
+
+            .sarpo{
+               /* background-color: green;*/
+                background-image: url(./img/skin.jpg);
+                background-size: 10px 10px;
+                border: .25vmin solid black;
+                border-radius: 7px;
+            }
+
+            .food{
+                background-color: #ff0000;
+                border: .25vmin solid purple;
+                border-radius: 50%;
+                /*background-image: url(./apple.jpg);*/
+                background-size: 24px;
+            }
+        </style>
+        <script src="./js/khel.js" defer type="module"></script>
+    </head>
+    <body>
+        
+        <div id="play-ground">
+            
+        </div>
+    </body>
+</html>
